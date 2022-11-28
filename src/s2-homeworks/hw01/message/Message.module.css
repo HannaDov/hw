@@ -1,0 +1,83 @@
+.message {
+  display: grid;
+     margin:10px;
+
+
+}
+.imageAndText {
+  display: grid;
+   justify-content: center;
+
+}
+
+.imageAndText img {
+width: 48px;
+height: 48px;
+
+}
+
+
+.text {
+
+    position: absolute;
+    border-radius: 5px 5px 0 5px;
+    background: #95b9f0;
+     color: black;
+     font-style: normal;
+     font-weight: 150px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 280px;
+
+
+}
+
+.text:after {
+
+     content: "";
+     position: absolute;
+    left: 100%;
+    width: 25px;
+    height: 25px;
+    bottom: 0;
+    background: radial-gradient(60px at top right, transparent 49%, #95b9f0 51%) no-repeat right bottom;
+
+}
+
+.name {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+margin-left:15px;
+}
+
+.messageText {
+
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+margin-left:10px;
+white-space: -o-pre-wrap;
+max-width:300px;
+color:black;
+white-space: pre-wrap;
+
+}
+
+.time {
+ font-weight: 600;
+ font-size: 10px;
+ line-height: 12px;
+display: grid;
+justify-content: center;
+
+}
+
+
+
+/*
+https://www.quackit.com/html/html_editors/scratchpad/?example=/html/templates/grid/css_grid_nested */
