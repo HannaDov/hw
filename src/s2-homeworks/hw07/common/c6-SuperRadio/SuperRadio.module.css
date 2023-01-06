@@ -1,0 +1,21 @@
+.radio {
+display:flex;
+
+}
+
+.radio::before {
+}
+
+
+.radio:checked::before {
+
+}
+
+.label {
+
+
+
+}
+
+.options {
+}
