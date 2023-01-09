@@ -1,5 +1,10 @@
 .App {
     --header_height: 60px;
+display:flex;
+
+
+
+
 }
 
 .hw {
@@ -7,5 +12,10 @@
 }
 
 .hwTitle {
-
+margin:45px;
+Font:Montserrat;
+Weight:600;
+Size:22px;
+font-weight: bold;
+border-bottom: #E5E5E5 1px solid;
 }
